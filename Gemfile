@@ -16,6 +16,7 @@ gem "pg"
 
 gem 'stealth-sarah', :git => 'https://github.com/narender2031/bot_service.git'
 
+
 group :development do
   gem 'foreman'
 end
