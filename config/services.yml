@@ -27,6 +27,11 @@ default: &default
   #   account_sid: XXXTWILIO_ACCOUNT_SIDXXX
   #   auth_token: XXXTWILIO_AUTH_TOKENXXX
   #   from_phone: +14155330000
+  sarah:
+    setup:
+      greeting:
+        - locale: default
+          text: "Welcome to the Stealth bot 🤖"
 
 production:
   <<: *default
